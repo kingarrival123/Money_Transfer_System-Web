@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+    <link href="./css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <hr />
+        <div>
+            Money-Transfer-System
+        </div>
+        <hr />
+
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a class="nav-link" href="transaction.html">Transaction</a></li>
+            <li class="nav-item"><a class="nav-link" href="history.html">History</a></li>
+        </ul>
+
+        <div class="card">
+            <div class="card-header">Transaction History</div>
+            <div class="card-body">
+                <form action="account-txr" method="POST">
+                    <div class="d-flex form-control">
+                        <div class="p-2">
+                            Account : <input name="account" placeholder="Account number" />
+                        </div>
+                        <div class="p-2">
+                            <button class="btn btn-sm btn-primary p-2">Go</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

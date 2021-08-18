@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction</title>
+    <link href="./css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <hr />
+        <div>
+            Money-Transfer-System
+        </div>
+        <hr />
+
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a class="nav-link" href="transaction.html">Transaction</a></li>
+            <li class="nav-item"><a class="nav-link" href="history.html">History</a></li>
+        </ul>
+
+        <div class="card">
+            <div class="card-header">Start Transaction</div>
+            <div class="card-body">
+                <form action="new-transaction" method="POST">
+                    <div class="form-group">
+                        From Account : <input name="fromAccount" placeholder="Account number" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        To Account : <input name="toAccount" placeholder="Account number" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        Amount : <input name="amount" placeholder="Amount" class="form-control" />
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-sm btn-primary">Transfer</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
